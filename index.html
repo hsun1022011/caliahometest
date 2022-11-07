@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALIAHOME</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/index.js"></script>
+   
+   
+    <script>
+        $(function () {
+            $('.reviewList').bxSlider({
+                auto: false,
+                minSlides: 2,
+                maxSlides: 5,
+                slideWidth: 288,
+                moveSlides:2,
+                pager: false
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="innerBox">
+            <h1 class="logo">
+                <a href="#"><img src="assets/logo_pc_header.png" alt="logo"></a>
+            </h1>
+
+            <ul class="gnb">
+                <li><a href="login.html"><img src="assets/icon_login.png" alt="로그인"></a></li>
+                <li><a href="#">sign up</a></li>
+                <li><a href="#"><img src="assets/icon_cart.png" alt="장바구니"></a></li>
+                <li><a href="#"><img src="assets/icon_mypage.png" alt="마이페이지"></a></li>
+                <li><a href="#"><img src="assets/icon_search.png" alt="돋보기"></a></li>
+            </ul>
+            <div class="ham">
+                <a href="#" class="hamBtn">
+                    <img src="assets/icon_menu.png" alt="hammenu">
+                </a>
+            </div>
+            <div class="hamMenuWrap">
+                <ul class="nav">
+                    <li><a href="#">침실</a></li>
+                    <li><a href="#">거실</a></li>
+                    <li><a href="#">주방</a></li>
+                    <li><a href="#">욕실</a></li>
+                    <li><a href="#">칼리아홈스토리</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <nav>
+            <ul id="nav" class="innerBox">
+                <li>
+                    <a href="#">침실</a>
+                    <ul class="sub">
+                        <li><a href="#">침구</a></li>
+                        <li><a href="#">쿠션</a></li>
+                        <li><a href="#">러그</a></li>
+                        <li><a href="#">거울</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">거실</a>
+                    <ul class="sub">
+                        <li><a href="#">소파</a></li>
+                        <li><a href="#">테이블</a></li>
+                        <li><a href="#">TV장식장</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">주방</a>
+                    <ul class="sub">
+                        <li><a href="#">식탁</a></li>
+                        <li><a href="#">의자</a></li>
+                        <li><a href="#">식탁세트</a></li>
+                        <li><a href="#">주방수납장</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">욕실</a>
+                    <ul class="sub">
+                        <li><a href="#">욕실수납</a></li>
+                        <li><a href="#">욕실매트</a></li>
+                        <li><a href="#">샤워커튼</a></li>
+                        <li><a href="#">청소용품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">칼리아홈스토리</a>
+                    <ul class="sub">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객센터</a>
+                    <ul class="sub">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mainBanner">
+        <ul class="banner">
+            <li>
+                <a href="#">
+                    <!--CSS/html 어디에?-->
+                    <div class="imgBox"><img src="assets/slide-01.png" alt="메인배너1"></div>
+                    <div class="textBox"><span>당신의 편안한 휴식을 위한</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="imgBox"><img src="assets/slide-03.png" alt="메인배너2"></div>
+                    <div class="textBox"><span>시원하게 여름 홈파티</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="imgBox"><img src="assets/slide=-2.png" alt="메인배너3"></div>
+                    <div class="textBox"><span>미드센츄리풍의 거실</span></div>
+                </a>
+            </li>
+        </ul>
+        <ul class="arrow">
+            <li class="leftArrow"><a href="#"><img src="assets/angel-left-thin-72.png" alt="왼화살표"></a></li>
+            <li class="rightArrow"><a href="#"><img src="assets/angel-right-thin-72.png" alt="오른화살표"></a></li>
+        </ul>
+        <ul class="pager">
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div class="innerBox">
+            <section class="newWrap">
+                <h2 class="titleNew">NEW</h2>
+                <ul class="new">
+                    <li>
+                        <a href="#">
+                            <div class="imgBox"><img src="assets/new01.jpg" alt="신상품01"></div>
+                            <div class="txtBox">
+                                <strong>엘레나 파스타접시</strong>
+                                <span>12,000원</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgBox"><img src="assets/new02.jpg" alt="신상품02"></div>
+                            <div class="txtBox">
+                                <strong>와인잔 2P세트</strong>
+                                <span>49,000원</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgBox"><img src="assets/new03.jpg" alt="신상품03"></div>
+                            <div class="txtBox">
+                                <strong>더블린침대 협탁</strong>
+                                <span>129,000원</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="event">
+                <h2 class="blind"></h2>
+                <div class="event1">
+                    <a href="#">
+                        <div class="imgBox1"><img src="assets/promotion01.jpg" alt="프로모션1"></div>
+                        <div class="txtBox">
+                            <span>VASE</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="event2">
+                    <a href="#">
+                        <div class="imgBox2"><img src="assets/promotion02.jpg" alt="프로모션2"></div>
+                        <div class="txtBox">
+                            <span>CUPS </span>
+                            <br><span>FOR SUMMER</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <ul class="signup">
+            <li>
+                <a href="#">
+                    <img src="assets/revieweventBanner02.png" alt="이벤트배너롤링">
+                    <div class="signupText">
+                        <span class="strong">오직 회원만,</span>
+                        <br>
+                        <strong>칼리아홈 회원가입 혜택</strong>
+                        <br>
+                        <span>칼리아홈은 처음이세요?</span><br>
+                        <span>지금 가입하시면 10% 할인쿠폰을 드립니다. (~최대 3만원)</span>
+                    </div>
+                </a>
+            </li>
+            <li><a href="#"><img src="assets/revieweventBanner.png" alt="이벤트배너롤링"></a></li>
+            <li><a href="#"><img src="assets/revieweventBanner03.png" alt="1인가구이벤트"></a></li>
+        </ul>
+        <ul class="signupMobile">
+            <li>
+                <a href="#">
+                    <img src="assets/revieweventBanner021.png" alt="이벤트배너롤링">
+                    <div class="signupText">
+                        <span class="strong">오직 회원만,</span>
+                        <br>
+                        <strong>칼리아홈 회원가입 혜택</strong>
+                        <br>
+                        <span>지금 가입하시면 10% 할인쿠폰을 드립니다. (~최대 3만원)</span>
+                    </div>
+                </a>
+            </li>
+            <li><a href="#"><img src="assets/revieweventBanner_011.png" alt="이벤트배너롤링"></a></li>
+            <li><a href="#"><img src="assets/revieweventBanner031.png" alt="1인가구이벤트"></a></li>
+        </ul>
+        <div class="innerBox">
+            <section class="reviewWrap">
+                <h2 class="review">BEST REVIEWS</h2>
+                <ul class="reviewList">
+                    <li>
+                        <a href="#">
+                            <img src="assets/review02.jpg" alt="">
+                            <div class="txtReview">
+                                <strong>세라믹원형접시</strong>
+                                <span>★★★★★</span>
+                                <br><span>라자냐를 해먹었어요</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/review03.png" alt="">
+                            <div class="txtReview">
+                                <strong>도자기접시</strong>
+                                <span>★★★★★</span>
+                                <br><span>어느날 남편이 사온 블루 수국이에요. 주말에 쿠키 하나, 우유 한잔으로 홈카페느낌내면서 테이블에 꽃을 보니 행복하네요 - 🤎 모두 행복한
+                                    주말 보내세요 !</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/review01.jpg" alt="">
+                            <div class="txtReview">
+                                <strong>투명디저트접시</strong>
+                                <span>★★★★★</span>
+                                <br><span>디저트로 홈카페 느낌에 딱이에요</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/review04.jpg" alt="review04">
+                            <div class="txtReview">
+                                <strong>레아 원목침대 프레임</strong>
+                                <span>★★★★★</span>
+                                <br><span>저는 침실에 대한 로망이 있어 작은방은 꼭 침실로 사용하고 싶었어요. 어떻게 하면 이 방을 침실로 사용할 수 있을지 고민하던
+                                    중!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/review05.jpg" alt="review05">
+                            <div class="txtReview">
+                                <strong>서랍 책상 1260</strong>
+                                <span>★★★★★</span>
+                                <br><span>오랜만에 만난 친구와 어두운 불빛 아래서 밤 늦도록 수다 떨고, 다음날 느즈막히 일어나서 어제 먹다 남은 페페로니 피자를 먹는 모습을
+                                    상상하며 '소년들의 아지트'를 최종 컨셉으로 계획을 구체화 해나갔습니다. 그렇게 어둠이 주는 따뜻함이 있는 집을 완성하게 되었습니다.</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="assets/review06.jpg" alt="review06">
+                            <div class="txtReview">
+                                <strong>타원형 라미네이트원목식탁</strong>
+                                <span>★★★★★</span>
+                                <br><span>오랜만에 만난 친구와 어두운 불빛 아래서 밤 늦도록 수다 떨고, 다음날 느즈막히 일어나서 어제 먹다 남은 페페로니 피자를 먹는 모습을
+                                    상상하며 '소년들의 아지트'를 최종 컨셉으로 계획을 구체화 해나갔습니다. 그렇게 어둠이 주는 따뜻함이 있는 집을 완성하게 되었습니다.</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- <ul class="arrowReview">
+                    <li class="reviewLeftArrow">
+                        <a href="#">
+                            <img src="assets/angel-left-thin-72.png" alt="">
+                            <div></div>
+                        </a>
+                    </li>
+                    <li class="reviewRightArrow">
+                        <a href="#">
+                            <img src="assets/angel-right-thin-72.png" alt="">
+                            <div></div>
+                        </a>
+                    </li>
+                </ul> -->
+            </section>
+            <section class="magazine">
+                <h2 class="blind"></h2>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="imgBox">
+                                <img src="assets/magazine02.jpg" alt="22년인테리어트랜드">
+                            </div>
+                            <div class="txtBox">
+                                <strong>2022년</strong>
+                                <span>인테리어 트랜드</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="imgBox">
+                                <img src="assets/magazine01.png" alt="여름홈파티아이디어">
+                            </div>
+                            <div class="txtBox">
+                                <strong>CALIAHOME STORY</strong>
+                                <span>여름 홈파티 아이디어</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="bannerBottom">
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="imgBox1">
+                            <img src="assets/sale01.png" alt="">
+                        </div>
+                        <div class="txtBox">
+                            <p>아직 첫 구매 안하신 고객님,</p>
+                            <strong>30%쿠폰 </strong>
+                            <p>혜택 받고 구매하세요!</p>
+                            <span>(전품목 최대 5만원 할인/ 일부품목제외)</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox2">
+                            <img src="assets/sale03.png" alt="">
+                        </div>
+                        <div class="txtBox">
+                            <span>이번 겨울, </span>
+                            <strong>세기의 세일 ~70%</strong>
+                            <p class="bannerSmall2">6/30~8/20</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="innerBox">
+            <div class="footTop">
+                <div class="addressWrap">
+                    <p>주식회사 칼리아홈</p>
+                    <address>
+                        <p>서울특별시 용산구 따라라라란 대표자 : 박혜선</p>
+                        <p>사업자등록번호 : 777-77-77777 통신판매업신고 번호 2021-서울용산-77777</p>
+                        <p>개인정보보호책임자 : 박혜선</p>
+                        <p>고객센터 : 1588-1588</p>
+                    </address>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="assets/facebook-3-72.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="assets/instagram-11-72.png" alt="인스타그램"></a></li>
+                        <li><a href="#"><img src="assets/twitter-3-72.png" alt="트위터"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footBottom">
+                <div class="customWrap">
+                    <p><a href="#">개인정보처리방침</a></p>
+                    <p><a href="#">이용안내</a></p>
+                    <p><a href="#">사업자정보확인</a></p>
+                    <p><a href="#">이용약관</a></p>
+                    <p><a href="#">Copyright©2022 CALIAHOME Co., Ltd. All rights reserved</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
